@@ -1,0 +1,138 @@
+.nav-logo{
+    color: #182136;
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-logo:hover{
+    color: #233662;
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.home-poster{
+    background-color: #182136;
+    font-family: "proxima-nova", sans-serif;
+}
+
+/* Default Style */
+.home-poster .card-title {
+    transition: color 2s ease-in-out, transform 2s ease-in-out;
+    color: #ffffff;
+  }
+  
+  /* Scrolled State */
+  .scrolled .card-title {
+    color: #233662; /* Example color when scrolled */
+  }
+
+  /* item */
+  /* Products.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    border-radius: 8px;
+    transition: transform 0.5s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #0d1b2a;
+    margin: 10px; /* Add margin to space items */
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.item p {
+    color: rgb(225, 225, 238);
+    margin: 6px 0;
+}
+
+.item-price {
+    display: flex;
+    gap: 20px;
+}
+
+.price {
+    color: rgb(225, 225, 238);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust gap between buttons */
+    margin-top: 10px; /* Space above buttons */
+}
+
+.btn {
+    background-color: #343a40; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px; /* Button padding */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #495057; /* Button hover color */
+}
+
+
+/* footer */
+/* Footer.css */
+
+footer {
+    background-color: #0d1b2a; /* Dark background for the footer */
+    color: #e1e1ee; /* Light text color */
+    padding: 20px 0; /* Padding for the footer */
+    font-size: 16px; /* Base font size */
+  }
+  
+  .footer-links {
+    margin-top: 10px; /* Space above the links */
+  }
+  
+  .footer-link {
+    color: #e1e1ee; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-links {
+      flex-direction: column; /* Stack links on smaller screens */
+      align-items: center; /* Center align on small screens */
+    }
+  }
+  
